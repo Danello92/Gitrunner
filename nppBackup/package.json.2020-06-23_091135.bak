@@ -1,7 +1,6 @@
 {
   "name": "task-runner",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "init-project": "npm install && npm install && npm run init:dirs && npm run init:files && npm run init:gitignore",
@@ -29,5 +28,9 @@
     "autoprefixer-cli": "^1.0.0",
     "html-validate": "^3.0.0",
     "node-sass": "^4.14.1"
-  }
+  },
+  "dependencies": {
+    "onchange": "^7.0.2"
+  },
+  "description": ""
 }
